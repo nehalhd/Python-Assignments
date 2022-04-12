@@ -1,0 +1,15 @@
+Notes:
+
+1- put ' ; ' --> when 2 statments were in same line.
+2- comments ' # ' --> who created file, when . why .
+3- help("keywords") --> reserved words
+4- ''' this is a string multi line ''' 
+5- indexing --> string[0]  ,
+   slicing -->  string[0:5] from left to right ,
+                string [-1:4] from right to left
+6- String Methods:
+        stripe()  -- title() -- capitalize()  -- zfill() -- upper() -- lower() -- 
+        split ()  -- center () -- count()  -- swapcase() -- startswith()  -- endswith() --
+        index() -- find()  -- rjust()  -- splitlines()  -- expandtabs()  --
+        isspace()  -- islower()  -- istitle()  -- isidentifier()  -- isalpha()  -- isalnum()  
+        replace()  -- join()  
