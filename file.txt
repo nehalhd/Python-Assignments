@@ -4,12 +4,108 @@ Notes:
 2- comments ' # ' --> who created file, when . why .
 3- help("keywords") --> reserved words
 4- ''' this is a string multi line ''' 
-5- indexing --> string[0]  ,
+5- # Escape Sequences Characters
+                # \b => Back Space
+                # \newline => Escape New Line + \
+                # \\ => Escape Back Slash
+                # \' => Escape Single Quotes
+                # \" => Escape Double Quotes
+                # \n => Line Feed
+                # \r => Carriage Return
+                # \t => Horizontal Tab
+                # \xhh => Character Hex Value
+6- concatenation --> print(var + "string" + var) note: concatenation connect string to string only .
+7- indexing --> string[0]  ,
    slicing -->  string[0:5] from left to right ,
                 string [-1:4] from right to left
-6- String Methods:
-        stripe()  -- title() -- capitalize()  -- zfill() -- upper() -- lower() -- 
-        split ()  -- center () -- count()  -- swapcase() -- startswith()  -- endswith() --
-        index() -- find()  -- rjust()  -- splitlines()  -- expandtabs()  --
-        isspace()  -- islower()  -- istitle()  -- isidentifier()  -- isalpha()  -- isalnum()  
-        replace()  -- join()  
+8- String Methods:
+        stripe(بتشيل)  -- title() -- capitalize()  -- zfill() -- upper() -- lower() -- 
+        split (turn string to lists)  -- center(put number to make spaces,'Character') -- count()  -- swapcase() -- startswith(Boolean)  -- endswith(Boolean) --
+        index(error) -- find(no error)  -- rjust(same as center)  -- splitlines(same as split but on mutli lines)  -- expandtabs()  --
+        isspace()  -- islower()  -- istitle()  -- isidentifier(check var name)  -- isalpha()  -- isalnum()  
+        replace()  -- join(turn lists to string)  
+
+9- formatting : to connect strings with numbers : --> print(f"My Name is : {myName} and My Age is : {myAge}")
+10- numbers:  note : can't convert complex to int
+        print(100)
+        print(float(100))
+        print(complex(100))
+11- Arithmetic Operators :
+        # [+] Addition
+        # [-] Subtraction
+        # [*] Multiplication
+        # [/] Division
+        # [%] Modulus
+        # [**] Exponent
+        # [//] Floor 
+12- Lists :  
+        # [1] List Items Are Enclosed in Square Brackets
+        # [2] List Are Ordered, To Use Index To Access Item
+        # [3] List Are Mutable => Add, Delete, Edit
+        # [4] List Items Is Not Unique
+        # [5] List Can Have Different Data Types
+13- Lists methods : 
+        append(add to list) - extend(add list to list) - remove()  -
+        sort()  - reverse() - pop() -  insert() -  index()  -  count() -  copy()  -  clear()  
+14- Tuple:
+        [1] Tuple Items Are Enclosed in Parentheses
+        [2] You Can Remove The Parentheses If You Want
+        [3] Tuple Are Ordered, To Use Index To Access Item
+        [4] Tuple Are Immutable => You Cant Add or Delete
+        [5] Tuple Items Is Not Unique
+        [6] Tuple Can Have Different Data Types
+        [7] Operators Used in Strings and Lists Available In Tuples
+15- Tuple Concatenation: 
+        v + v 
+        Tuple, List, String Repeat (*)  : v * repeat number  
+        methods : count() --  index() -- destruct = when we want to divided the items of the list to some variables.
+16- Set : 
+        # [1] Set Items Are Enclosed in Curly Braces
+        # [2] Set Items Are Not Ordered And Not Indexed
+        # [3] Set Indexing and Slicing Cant Be Done
+        # [4] Set Has Only Immutable Data Types (Numbers, Strings, Tuples) List and Dict Are Not
+        # [5] Set Items Is Unique
+17- set methods :  Clear() - union()  - add()  -  copy() -  remove(error)  -  discard(noerror)
+                pop()  -  update()  -  difference()  -   difference_update()  -  intersection()
+                intersection_update()   -   symmetric_difference() -  issuperset()   -   
+                issubset()    -   isdisjoint()  
+18- Dict :
+        # [1] Dict Items Are Enclosed in Curly Braces
+        # [2] Dict Items Are Contains Key : Value
+        # [3] Dict Key Need To Be Immutable => (Number, String, Tuple) List Not Allowed
+        # [4] Dict Value Can Have Any Data Types
+        # [5] Dict Key Need To Be Unique
+        # [6] Dict Is Not Ordered You Access Its Element With Key
+        dict can be : # Two-Dimensional Dictionary --  # Create Dictionary From Variables 
+19- Dict methods : var.methods 
+        clear()  -  update()  -  copy()  -  keys()  -  values()  -  setdefault()   -   popitems()   
+        items()   -   fromkeys()  -   view()
+20-Boolean:
+        # True Values:
+                print(bool("Osama"))
+                print(bool(100))
+                print(bool(100.95))
+                print(bool(True))
+                print(bool([1, 2, 3, 4, 5]))
+        # False Values:
+                print(bool(0))
+                print(bool(""))
+                print(bool(''))
+                print(bool([]))
+                print(bool(False))
+                print(bool(()))
+                print(bool({}))
+                print(bool(None))
+        # Boolean Operators:
+                # and # or # not
+21- Type Conversion :
+        int() : from str to int
+        str() : from num to string 
+        tuple() : from string , list , set . dict to tuple 
+        list()  : from string , set , tuple , dict  to list 
+        set()  :  from string , list , tuple , dict  to set 
+        dict() : from tuple , list to dict 
+22- User Input: 
+        fName = input('What\'s Is Your First Name?')
+        input take input and save it in " fName" variable
+23- 
